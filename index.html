@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doce Arte – Confeitaria Artesanal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">🎂 Doce Arte</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <span class="badge">Feito com amor ✨</span>
+      <h1>Bolos que contam<br /><em>histórias doces</em></h1>
+      <p>Confeitaria artesanal com ingredientes selecionados para tornar cada momento especial e inesquecível.</p>
+      <div class="hero-actions">
+        <a href="#cardapio" class="btn btn-primary">Ver Cardápio</a>
+        <a href="#contato" class="btn btn-outline">Fazer Pedido</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="cake-visual">
+        <div class="cake-layer layer-top"></div>
+        <div class="cake-layer layer-mid"></div>
+        <div class="cake-layer layer-bot"></div>
+        <div class="cake-plate"></div>
+        <div class="candle c1"><div class="flame"></div></div>
+        <div class="candle c2"><div class="flame"></div></div>
+        <div class="candle c3"><div class="flame"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="features">
+    <div class="container features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🌾</div>
+        <h3>Ingredientes Naturais</h3>
+        <p>Usamos apenas ingredientes frescos e selecionados, sem conservantes artificiais.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎨</div>
+        <h3>Design Exclusivo</h3>
+        <p>Cada bolo é uma obra de arte personalizada de acordo com o seu sonho.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🚚</div>
+        <h3>Entrega com Cuidado</h3>
+        <p>Entregamos em embalagens especiais para garantir que chegue perfeito.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💬</div>
+        <h3>Atendimento Personalizado</h3>
+        <p>Do pedido à entrega, estamos sempre disponíveis para você.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="container sobre-inner">
+      <div class="sobre-text">
+        <span class="section-label">Nossa História</span>
+        <h2>Uma paixão que virou tradição</h2>
+        <p>A Doce Arte nasceu em 2015 da paixão de Marina Silva pela confeitaria artesanal. O que começou como um hobby na cozinha de casa hoje é referência na cidade, com centenas de bolos entregues e sorrisos conquistados.</p>
+        <p>Cada receita é desenvolvida com cuidado, testada diversas vezes e aperfeiçoada com o feedback dos nossos clientes. Porque para nós, o que importa é a sua felicidade.</p>
+        <div class="stats">
+          <div class="stat"><strong>500+</strong><span>Bolos entregues</span></div>
+          <div class="stat"><strong>8+</strong><span>Anos de experiência</span></div>
+          <div class="stat"><strong>100%</strong><span>Satisfação garantida</span></div>
+        </div>
+      </div>
+      <div class="sobre-decoration">
+        <div class="deco-circle"></div>
+        <div class="deco-emoji">🍰</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARDÁPIO -->
+  <section class="cardapio" id="cardapio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Nossos Sabores</span>
+        <h2>Cardápio</h2>
+        <p>Escolha o bolo perfeito para a sua ocasião</p>
+      </div>
+      <div class="cardapio-grid">
+
+        <div class="produto-card">
+          <div class="produto-emoji">🍫</div>
+          <div class="produto-info">
+            <h3>Bolo de Chocolate Belga</h3>
+            <p>Massa úmida de cacau com ganache de chocolate belga e raspas de chocolate.</p>
+            <div class="produto-footer">
+              <span class="preco">A partir de R$ 120</span>
+              <a href="#contato" class="btn-small">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="produto-card destaque">
+          <div class="badge-card">Mais pedido</div>
+          <div class="produto-emoji">🍓</div>
+          <div class="produto-info">
+            <h3>Morango com Chantilly</h3>
+            <p>Pão de ló fofinho, creme de chantilly artesanal e morangos frescos da estação.</p>
+            <div class="produto-footer">
+              <span class="preco">A partir de R$ 130</span>
+              <a href="#contato" class="btn-small">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="produto-card">
+          <div class="produto-emoji">🥕</div>
+          <div class="produto-info">
+            <h3>Bolo de Cenoura</h3>
+            <p>Receita tradicional com cenoura fresca e cobertura de brigadeiro cremoso.</p>
+            <div class="produto-footer">
+              <span class="preco">A partir de R$ 95</span>
+              <a href="#contato" class="btn-small">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="produto-card">
+          <div class="produto-emoji">🍋</div>
+          <div class="produto-info">
+            <h3>Limão Siciliano</h3>
+            <p>Massa amanteigada com curd de limão siciliano e merengue italiano tostado.</p>
+            <div class="produto-footer">
+              <span class="preco">A partir de R$ 115</span>
+              <a href="#contato" class="btn-small">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="produto-card">
+          <div class="produto-emoji">🥜</div>
+          <div class="produto-info">
+            <h3>Prestígio & Coco</h3>
+            <p>Bolo de chocolate com recheio cremoso de coco fresco e cobertura de ganache.</p>
+            <div class="produto-footer">
+              <span class="preco">A partir de R$ 125</span>
+              <a href="#contato" class="btn-small">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="produto-card">
+          <div class="produto-emoji">🎂</div>
+          <div class="produto-info">
+            <h3>Bolo Personalizado</h3>
+            <p>Crie o bolo dos seus sonhos! Escolha sabor, recheio, cobertura e decoração.</p>
+            <div class="produto-footer">
+              <span class="preco">Consulte-nos</span>
+              <a href="#contato" class="btn-small">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="galeria" id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Nosso Trabalho</span>
+        <h2>Galeria</h2>
+        <p>Cada bolo é único, cada momento é especial</p>
+      </div>
+      <div class="galeria-grid">
+        <div class="galeria-item g1"><span>🎂</span></div>
+        <div class="galeria-item g2"><span>🍰</span></div>
+        <div class="galeria-item g3"><span>🧁</span></div>
+        <div class="galeria-item g4"><span>🍫</span></div>
+        <div class="galeria-item g5"><span>🍓</span></div>
+        <div class="galeria-item g6"><span>🎉</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="depoimentos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Clientes Felizes</span>
+        <h2>O que dizem sobre nós</h2>
+      </div>
+      <div class="depo-grid">
+        <div class="depo-card">
+          <div class="stars">★★★★★</div>
+          <p>"O bolo de casamento superou todas as expectativas! Lindo, gostoso e entregue no horário. Recomendo muito!"</p>
+          <div class="depo-autor">
+            <div class="avatar">A</div>
+            <div><strong>Ana Paula</strong><span>Casamento – março 2025</span></div>
+          </div>
+        </div>
+        <div class="depo-card">
+          <div class="stars">★★★★★</div>
+          <p>"Encomendei o bolo de aniversário da minha filha com tema unicórnio e ficou simplesmente perfeito! Ela amou!"</p>
+          <div class="depo-autor">
+            <div class="avatar">C</div>
+            <div><strong>Carlos Mendes</strong><span>Aniversário infantil – jan 2025</span></div>
+          </div>
+        </div>
+        <div class="depo-card">
+          <div class="stars">★★★★★</div>
+          <p>"Sabor incrível! O bolo de morango com chantilly é de outro nível. Já fiz mais de 5 pedidos. Não troco por nada!"</p>
+          <div class="depo-autor">
+            <div class="avatar">F</div>
+            <div><strong>Fernanda Lima</strong><span>Cliente fiel desde 2022</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <div class="container contato-inner">
+      <div class="contato-info">
+        <span class="section-label">Fale Conosco</span>
+        <h2>Faça seu pedido</h2>
+        <p>Entre em contato e vamos criar juntos o bolo perfeito para a sua ocasião especial!</p>
+        <div class="contato-items">
+          <div class="contato-item">📍 <span>Rua das Flores, 123 – Centro</span></div>
+          <div class="contato-item">📞 <span>(11) 98765-4321</span></div>
+          <div class="contato-item">✉️ <span>contato@docearte.com.br</span></div>
+          <div class="contato-item">🕐 <span>Seg–Sáb: 8h às 18h</span></div>
+        </div>
+      </div>
+      <form class="contato-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="nome">Seu nome</label>
+          <input type="text" id="nome" placeholder="Maria Silva" required />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="maria@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="ocasiao">Ocasião</label>
+          <select id="ocasiao">
+            <option value="">Selecione...</option>
+            <option>Aniversário</option>
+            <option>Casamento</option>
+            <option>Batizado</option>
+            <option>Formatura</option>
+            <option>Outro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" rows="4" placeholder="Conte-nos sobre o seu bolo dos sonhos..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Enviar Pedido 🎂</button>
+        <div class="form-success" id="success">✅ Pedido enviado! Entraremos em contato em breve.</div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo">🎂 Doce Arte</div>
+        <p>Confeitaria artesanal feita com amor desde 2015.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Redes Sociais</h4>
+        <div class="social-links">
+          <a href="#" class="social-btn">📸 Instagram</a>
+          <a href="#" class="social-btn">📘 Facebook</a>
+          <a href="#" class="social-btn">💬 WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Doce Arte Confeitaria. Feito com 💕 e muito açúcar.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
